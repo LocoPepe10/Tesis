@@ -1,0 +1,19 @@
+A New Model-Free Index of Dynamic Cerebral Blood Flow
+Autoregulation/ Un nuevo indice sin modelo de autorregulacion dinamica del flujo sanguineo cerebral.
+
+
+* El actual modelo que utiliza el indicador ARI, se ve envuelto en diversos errores ya que produce falsos positivos.
+
+* ARI mide la eficiencia de la autoregulacion cerebral.
+
+
+* Modelo se basaba en la evaluacion de los cambios observados el la velocidad del flujo sanguineo cerebralen respuesta a los cambios en la presion arterial senguinea.
+
+* Presion arterial sanguinea como entrada y Velocidad del flujo sanguineo cerebral como salida.
+
+* Valor ARI: 0 - > Ausencia de regulacion.
+
+Valor ARI: 9 - > Buena regulacion.
+
+
+
