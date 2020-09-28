@@ -1,0 +1,17 @@
+Diversos estudios dentro del area neurologica han podido demostrar ciertos metodos para la medicion de variables en el cuerpo humano, como es el caso de la presion, frecuencia cardiaca, entre otros. Es de suma importancia conocer la raiz de todo origen para comprender el valor real de cada descubrimiento cientifico.
+
+El modelo de Aaslid-Tiecks permite fundamentar la obtencion del Indice de Autorregulacion Cerebral, con la maniobra de oclusion de la circulacion en los muslos que permitio estudiar el comportamiento dinamico de la Autorregulacion del flujo sanguineo cerebral. En base a esto mediante variables como la velocidad del flujo sanguineo cerebral en respuesta a los cambios que se efectuaban en la presion sanguinea arterial, se logro realizar una correlacion entre estos factores que permitieron demostrar y efectuar un modelo matematico capaz de representar este ARI.
+
+Mediante tres parametros de una ecuacion diferencial de segundo orden, se permitio calcular un indice discreto con intervalos de valores entre el 0 y 9 lo cual representa claramente una ausencia de autoregulacion o un comportamiento constante y gradual de este mismo.
+
+
+El modelo plantea que en base a cambios de presion arterial representado por P(t), se logra obtener la Velocidad del Flujo Sanguineo Cerebral(VFSC) correspondiente a V', utilizando cuatro ecuaciones de estado.
+
+Donde dP(t) se encarga de normalizar la presion via linea base, CPPr es un valor introducido por Tiecks, el cual hace referencia a la presion de cierre critica, f corresponde a la frecuencia de muestreo, K representa un parametro de ganancia en la ecuacion, T es la constante de tiempo y D es el factor de amortiguamiento. Por otra parte, X1(t) y X2(t) son las variables de estado de un sistema diferencial.
+
+Este modelo combina los parametros K,D,T, los cuales son asociados un valor ARI especifico con el fin de poder representar el estado del inviduo analizado. Esto se puede apreciar en la siguiente tabla. 
+
+
+El modelo produce diez curvas que representan cada ARI en base a la velocidad V'(t) para cada parte de medida P(t) real de un sujeto, mediante las comparaciones con la velocidad real del sujeto, se miden por error cuadratico minimo o correlacion maxima, entre la velocidad real y la velocidad estimada por el modelo. Finalmente la asignacion del valor de ARI se consigue mediante el ajuste entre la velocidad real y las 10 curvas estimadas por el modelo mediante un error o correlacion directa.
+
+Y es asi como empiricamente se logran establecer los parametros necesario para la creacion del modelo actual que sirve de referencia para las investigaciones de hoy en dia.
