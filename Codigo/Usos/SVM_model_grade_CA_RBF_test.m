@@ -1,5 +1,4 @@
-function [CAI_est var_sigma corr_test error_test]=SVM_model_grade_CA_RBF_test...
-    (coeff_in,CAI_out,number_coeff,coeff_new,CAI_out_new,kernel_in,var_NU,var_C,n_folds)
+function [CAI_est var_sigma corr_test error_test]=SVM_model_grade_CA_RBF_test(coeff_in,CAI_out,number_coeff,coeff_new,CAI_out_new,kernel_in,var_NU,var_C,n_folds)
 
     
     svm_kernel=svr(kernel(kernel_in));          %set a kernel type

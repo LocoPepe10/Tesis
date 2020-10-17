@@ -1,0 +1,61 @@
+Modelo predictivo: 
+
+Ley de Pareto (80/20)
+* Muestras aleatorias.
+* Accuracy: Porcentaje de aciertos.
+	Deben dar un porcentaje de aciertos cercano tanto el conjunto de entrenamiento como el conjunto de prueba.
+
+* Al finalizar tanto entranamiento como pruebas, se debe entrenar con el total de los registros.
+
+
+- Conjunto de entrenamiento(train): Alimentan al modelo predictivo.
+
+- Conjunto de pruebas(test): Para probar el modelo entrenado. 
+
+
+
+---------------------
+
+Registros totales: 10.0000
+
+X_train = 8000 registros para entrenar.
+Y_train = con las etiquetas de los resultados esperados de X_train.
+
+X_test  = 2000 registros para test.
+Y_test  = con las etiquetas de los resultados X_test.
+
+
+modelo.fit(X_train, Y_train): Entrenando el modelo. 
+
+
+modelo.predict(X_test): Prediccion.
+
+
+---------------------
+Estadistica. 
+
+Llamemos E al grupo de los que tienen la patología en estudio, NE al de los que no la tienen y P a los que la prueba da positivo y N a los que la prueba da negativo.
+
+
+
+- Sensibilidad: Mide la relacion entre los positivos y las personas q estan enfermas.(verdadero positivos)
+
+Contrario -> falsos negativos
+
+
+- Especificidad: Mide la relacion entre los negativos y las personas q no estan enfermas. (falso negativo)
+
+Contario -> falsos positivos
+
+- Valor predictivo positivo
+	(VPP): Sabiendo que son positivos, cuantos estan en estudio.
+
+- Valor predictivo negativo
+	(VPN): Sabiendo que es negativo, cuantos no estan en estudio.
+
+* Afecta la prevalencia de la patologia.
+
+
+RV+ : Es, en realidad, un cociente entre los verdaderos positivos y los falsos positivos.
+
+RV- : Es un cociente entre los falsos negativos y los verdaderos negativos.
